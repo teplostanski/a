@@ -87,6 +87,8 @@ if [ -n "${CHECKSUMS_URL}" ] && command -v sha256sum >/dev/null 2>&1; then
             
             if [ "${ACTUAL_CHECKSUM}" = "${EXPECTED_CHECKSUM}" ]; then
                 echo "✅ Checksum verified"
+                echo "   Expected: ${EXPECTED_CHECKSUM}"
+                echo "   Actual:   ${ACTUAL_CHECKSUM}"
             else
                 echo "❌ Checksum verification failed!"
                 echo "   Expected: ${EXPECTED_CHECKSUM}"
