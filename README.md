@@ -18,20 +18,30 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/teplostanski/nosudopass/ma
 > [!NOTE]
 > If you get a `"Permission denied"` error, try running the command using `sudo`.
 
+## 🚀 Run
+
+```bash
+sudo nosudopass
+```
+
 ### Local (for current user)
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/teplostanski/nosudopass/main/scripts/install.sh)"
 ```
 
+## 🚀 Run
+
+```bash
+sudo env PATH="$PATH" nosudopass
+```
+Or
+```bash
+sudo ~/.local/bin/nosudopass
+```
+
 ## Uninstall
 
 ```bash
 sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/teplostanski/nosudopass/main/scripts/uninstall.sh)"
-```
-
-## 🚀 Run
-
-```bash
-sudo nosudopass
 ```
