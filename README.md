@@ -45,3 +45,8 @@ sudo ~/.local/bin/nosudopass
 ```bash
 sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/teplostanski/nosudopass/main/scripts/uninstall.sh)"
 ```
+
+## AI Assistance Disclosure
+
+This project was developed with AI coding assistance. 
+All generated code has been reviewed and modified by human developers.
