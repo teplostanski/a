@@ -1,1 +1,39 @@
+# 🛡️ nosudopass
 
+TUI tool to manage **sudo NOPASSWD** rules for users.
+Allows enabling or disabling sudo without password via an interactive terminal menu.
+
+## Support
+- OS: `Linux` (only)
+- Architecture: `x86_64`, `aarch64`, `arm64`
+
+## Install
+
+### Global
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/teplostanski/nosudopass/main/scripts/install.sh)" -- --global
+```
+
+> [!NOTE]
+> If you get a `"Permission denied"` error, try running the command using `sudo`.
+
+### Local (for current user)
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/teplostanski/nosudopass/main/scripts/install.sh)"
+```
+
+## Uninstall
+
+```bash
+sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/teplostanski/nosudopass/main/scripts/uninstall.sh)"
+```
+
+## 🚀 Run
+
+```bash
+sudo nosudopass
+```
+
+If not running as root, the program will ask for your sudo password.
