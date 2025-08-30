@@ -129,4 +129,5 @@ else
     mv "${TMP_DIR}/${APP}" "${INSTALL_DIR}/${APP}"
 fi
 
-echo "✅ Installed to ${INSTALL_DIR}/${APP}"
+echo "✅ Installed ${APP} ${VERSION} to ${INSTALL_DIR}/${APP}"
+
