@@ -9,7 +9,7 @@ Allows enabling or disabling sudo without password via an interactive terminal m
 - OS: `Linux` (only)
 - Architecture: `x86_64`, `aarch64`, `arm64`
 
-## Install
+## Install / Update
 
 ### Global
 
