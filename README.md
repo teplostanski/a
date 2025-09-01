@@ -3,6 +3,8 @@
 TUI tool to manage **sudo NOPASSWD** rules for users.
 Allows enabling or disabling sudo without password via an interactive terminal menu.
 
+![screen](./screen.png)
+
 ## Support
 - OS: `Linux` (only)
 - Architecture: `x86_64`, `aarch64`, `arm64`
